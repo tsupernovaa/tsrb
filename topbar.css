@@ -1,0 +1,11 @@
+.nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.nav a:hover {
+  background-color: #1E90FF;
+  box-shadow: 0 0 10px #1E90FF;
+}

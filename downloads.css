@@ -1,0 +1,48 @@
+
+
+
+body {
+  padding-top: 170px;
+  background-image: url('dl.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center ;
+  justify-content: center ;
+  font-family: kiona;
+  color: white;
+}
+
+
+.download-item {
+	
+border: 2px solid rgba(255, 255, 255, 0.5);
+border-radius: 20px;
+backdrop-filter: blur(5px);
+box-shadow:2px solid white;
+padding: 20px;
+margin-bottom: 20px;
+transform: translateY(0);
+transition: transform 0.2s ease-out;
+animation: slideIn 1s ease-in-out;
+
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+.download-item:hover {
+
+transform: translateY(-10px);
+
+}
+
+
+
+
